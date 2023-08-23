@@ -18,7 +18,6 @@ const GameCard = ({
         <Heading fontSize="2xl">{name}</Heading>
         <HStack justifyContent="space-between">
           <PlatformIcons platforms={parent_platforms.map((p) => p.platform)} />
-
           <CriticScore score={metacritic} />
         </HStack>
       </CardBody>
